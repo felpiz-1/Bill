@@ -2,7 +2,7 @@
     padding: 0px;
     border: 0px;
     margin: 0px;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -94,7 +94,7 @@ a.active{
     height: 300px;
 }
 
-.bomba, p{
+.bomba p{
     margin: 0px 10px;
 }
 
@@ -139,7 +139,19 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: end;
+    width: 100%;
     background-color: black;
     color: white;
+    margin-top: auto;
  }
+
+.caixaSobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
