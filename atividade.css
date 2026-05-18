@@ -1,0 +1,231 @@
+*, *::after, *::before {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+ }
+
+.barraInicial{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid rgb(67, 67, 253);
+}
+
+.linksPg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+    margin: 0 10px;
+}
+
+a{ 
+    background-color: white;
+    color: rgb(67, 67, 253);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+
+} 
+
+a:hover{
+    background: rgb(67, 67, 253);
+    color: white;
+}
+
+a.active{
+    background: rgb(67, 67, 253);
+    color: white;
+}
+
+.cardTitulo{
+    width: 100%;
+    height: 272px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 71, 4);
+    color: white;
+}
+
+.cardTituloSecundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.cardsProdutos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(245, 240, 240);
+    padding: 20px;
+}
+
+.imgProdutos{
+    width: 100%;
+    height: 60%;
+}
+
+.bomba{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid silver;
+    overflow: hidden;
+    border-radius: 10px;
+    gap: 5px;
+    width: 250px;
+    height: 300px;
+}
+
+.bomba, p{
+    margin: 0px 10px;
+}
+
+
+.botaoSaibaMais{
+    background-color: rgb(47, 151, 47);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    size: 2.0;
+}
+
+img{
+    object-fit: cover;
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(181, 186, 190);   
+    gap: 20px; 
+    padding: 10px;
+    height: auto;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+}
+
+ .iconeIndividual{
+    width: 40px;
+    height: auto;
+ }
+
+ .direitos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+ }
+
+ .buttonLogin{
+    background-color: rgb(47, 151, 47);
+    color: white;
+    padding: 5px;
+
+ }
+
+ .login{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: white;
+    color: rgb(62, 62, 252);
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 0px 10px 10px 10px rgb(216, 216, 216) ;
+ }
+
+ .login input{
+    border: 1px solid rgb(78, 77, 77);
+    padding: 5px;
+    width: 100%;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 3px;
+ }
+
+ .login button{
+    width: 100%;
+    background-color: rgb(62, 62, 252);
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+ }
+
+ .telaLogin{
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .telaSistema{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90dvh;
+ }
+
+ .barraInicialsp{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid rgb(67, 67, 253);
+    background-color: rgb(32, 16, 252);
+    color: white;
+}
+ 
+.barraLateral{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 15%;
+}
+
+.barraPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
