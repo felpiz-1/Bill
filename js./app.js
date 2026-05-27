@@ -29,7 +29,7 @@ const senhaCadastrada = "1234";
 function logarSistema(){
 
 if (dadosDigitados.email == usuarioCadastrado && dadosDigitados.senha == senhaCadastrada){
-    alert("Login realizado com sucesso!")
+    window.location.replace('sistemapro.html')
 }
 else if(dadosDigitados.email !== usuarioCadastrado){
     alert("Usuario não encontrado.");
