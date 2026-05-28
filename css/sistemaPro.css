@@ -1,0 +1,89 @@
+*, *::after, *::before {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+ }
+
+ .telaSistema{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100dvh;
+ }
+
+ .barraInicialsp{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid rgb(67, 67, 253);
+    background-color: rgb(32, 16, 252);
+    color: white;
+}
+ 
+.barraLateral{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 20%;
+}
+
+.barraPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.linksPg{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 80%;
+    gap: 10px;
+    margin: 0 10px;
+}
+
+.buttonSair{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 0.4cm;
+    border-radius: 5px;
+}
+
+.caixaBemvindo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px 3px rgb(216, 216, 216);
+}
+
+.caixaBemvindo h1{
+    color: blue;
+}
+
+.caixaBemvindo p{
+    color: rgb(68, 68, 68);
+}
+
+.btConsultaProdutos{
+    background-color: blue;
+    color: white;
+    padding: 5;
+}
