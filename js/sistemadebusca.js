@@ -32,7 +32,18 @@ let produto = [
 ]
 
 const btn = document.getElementById("btnbusca")
+const tituloCard = document.getElementById("tituloCard") 
+const caixaInformacoes = document.getElementById("caixaInformacaoes") 
+const pesquisa = document.getElementById("pesquisa")
 
 btn.addEventListener('click', (event) =>{
+    event.preventDefault();
+    caixaInformacoes.innerHTML = `
+        <h1>Consulta de Bombas</h1>
+        <form id="pesquisa">
+            <input type="text" id="inputPesquisa" placeholder="Digite um ID">
+            <button>Consultar</button>
+        </form>
+    `;
     
 })
