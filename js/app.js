@@ -22,7 +22,7 @@ function getDadosDigitados(email, senha){
     logarSistema();
 };
 
-const usuarioCadastrado = "felipe.r.andrade@edu.senai.br";
+const usuarioCadastrado = "adm@adm";
 const senhaCadastrada = "1234";
 
 

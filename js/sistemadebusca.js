@@ -44,7 +44,7 @@ function buscarProduto(idDigitado) {
                 <input type="text" id="inputPesquisa" placeholder="Digite um ID">
                 <button>Consultar</button>
             </form>
-            <div>
+            <div class = "caixaenjetada">
                 <img src="${produtoEncontrado.img}" alt="Foto da ${produtoEncontrado.nome}" id="imagemProduto">
                 <h2 id="nomeProduto">${produtoEncontrado.nome}</h2>
                 <p id="legendaProduto">${produtoEncontrado.legenda}</p>
